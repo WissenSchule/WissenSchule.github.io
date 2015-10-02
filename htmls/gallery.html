@@ -9,6 +9,12 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
   </head>
+  <script type="text/javascript">
+    function showWindow()
+    {
+      testwindow = window.open("/htmls/thumb1.html", "1", "location=1,status=1,scrollbars=1,width=500,height=500");
+    }
+</script>
   <body>
     <section class="page-header">
       <h1 class="project-name">Gallery</h1>
@@ -23,7 +29,9 @@
              <br>
              </td>
              <td>
-               <img src="/images/thumbnails/thumb2.jpg" alt="" style="width:310px;height:208px;">
+               <a onclick="showWindow()" href="/htmls/thumb1.html" target="_blank">
+                  <img src="/images/thumbnails/thumb2.jpg" alt="" style="width:310px;height:208px;">
+                  </a>
                <br>
              </td> 
             </tr>
